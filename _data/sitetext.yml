@@ -1,0 +1,303 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: 고객의 행복이 먼저다.
+    text:  반갑습니다. 헤드아이티입니다.
+    button: 오시는길
+    buttonlink: "#about"
+
+  services:
+    title: "Services"
+    text: "Lorem ipsum"
+    section: services
+    list:
+      - title: "라이선스 안내"
+        desc: "각 벤더의 전문 PM이 **용도에 알맞는 라이선스 구매 가이드**를 제시해 드립니다."
+        icon: fas fa-book #find more at https://fontawesome.com/icons
+      - title: "온라인 견적"
+        desc: "복잡한 소프트웨어 라이선스! 고객센터를 통해 **빠른 상담 및 견적 상담**을 받으실 수 있습니다."
+        icon: fas fa-headset
+      - title: "Q&A 게시판"
+        desc: "고객님의 다양한 문의사항을 **신속 정확**하게 해결하실 수 있습니다."
+        icon: fas fa-bullhorn
+
+  portfolio:
+    title: "제품 소개"
+    text: 
+    section: portfolio
+    closebutton: "닫기"
+
+  about:
+    title: "오시는 길"
+    text: "(주)헤드아이티에 방문하시는 모든 분들을 환영합니다."
+    body: "**주소**<br>전라북도 전주시 완산구 홍산남로 19 즐거운빌딩 5층<br><br>**시내버스**<br>6, 61(비전대,전주대), 61(분선)(중앙시장,전주대), 165(동물원,국립식량과학원), 165(분선)(전동성당,한옥마을,국립식량과학원), 190(평화동종점,전주비전대학)"
+    section: about
+
+  contact:
+    title: "Contact Us"
+    text: "call 헤드아이티 063-123-4567"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  header:
+    title: ¡Bienvenido a nuestro Estudio!
+    text: Es un placer conocerle
+    button: Ver más
+    buttonlink: "#servicios"
+
+  services:
+    title: "Servicios"
+    text: "Lorem ipsum"
+    section: servicios
+    list:
+      - title: "Comercio Electrónico"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Diseño Responsivo"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Su descripción aquí, soporte completo de **Markdown**"
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portafolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portafolio
+    closebutton: "Cerrar Proyecto"
+
+  about:
+    title: "Sobre nosotros"
+    text: "nuestra historia"
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: nosotros
+
+  contact:
+    title: "Contáctenos"
+    text: "Lorem ipsum or call 123456789"
+    section: contacto
+    name: "Nombre*"
+    name-validation: "Por favor ingrese su nombre."
+    email: "Correo Electrónico*"
+    email-validation: "Por favor ingrese su correo electrónico."
+    phone: "Número Telefónico*"
+    phone-validation: "Por favor ingrese su número telefónico."
+    message: "Mensaje*"
+    message-validation: "Por favor escriba un mensaje."
+    subject: "Envío del formulario de contacto"
+    submit: "Enviar Mensaje"
+
+  footer:
+    legal: "Política de Privacidad"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES
+
+# Deutsch
+# -----------------
+de: &DEFAULT_DE
+  header:
+    title: Willkommen auf unserer Webseite!
+    text: Schön das Sie hier sind!
+    button: Mehr erfahren
+    buttonlink: "#Angebote"
+
+  services:
+    title: "Leistungen"
+    text: "Was wir anbieten."
+    section: Leistungen
+    list:
+      - title: "E-Commerce"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Responsive Design"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://de.wikipedia.org/wiki/Markdown)"
+        desc: "Hier können Sie etwas mit **Markdown** einfügen."
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: Portfolio
+    closebutton: "Schließen"
+
+  timeline:
+    title: "Geschichte"
+    text: "Lorem ipsum timeline"
+    section: Geschichte
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Unsere Anfänge"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Gründung der Firma"
+        year: "März 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Das Jekyll-Thema wurde erstellt"
+        year: "2019"
+        desc: "Ravi Riley wandelte Agency, ein auf Bootstrap basierendes Thema, in ein Jekyll-Thema um. Man kann das Jekyll-Thema als Ruby-Gem oder remotely installieren. Für mehr Informationen, schauen Sie sich die Dokumentation an."
+        image: assets/img/timeline/3.jpg
+        alt: Bildbeschreibung
+      - title: "Titel"
+        year: "2009-2011"
+        desc: "Hier können Sie etwas mit **Markdown** einfügen."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Seien Sie <br> Teil unserer <br> Geschichte!"
+
+  about:
+    title: "Über uns"
+    text: "Unsere Geschichte."
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: Ueber
+
+  clients:
+    section: Kunden
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "Unser großartiges Team"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: Team
+    people:
+      - name: "Kay Garland"
+        role: "Chef-Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Chef der Werbeabteilung"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Chef-Programmiererin"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Kontakt"
+    text: "Kontaktieren Sie uns."
+    section: Kontakt
+    name: "Name*"
+    name-validation: "Geben Sie einen Namen ein."
+    email: "E-Mail*"
+    email-validation: "Geben Sie Ihre E-Mail-Addresse ein."
+    phone: "Telefonnummer*"
+    phone-validation: "Geben Sie Ihre Telefonnummer ein."
+    message: "Nachricht*"
+    message-validation: "Schreiben Sie etwas..."
+    subject: "Kontakt-Formular Bestätigung"
+    submit: "Nachricht absenden"
+
+  footer:
+    legal: "Datenschutzerklärung"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+de-DE:
+  <<: *DEFAULT_DE
