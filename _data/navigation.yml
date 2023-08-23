@@ -19,6 +19,8 @@ en: &DEFAULT_EN
       section: about
     - title: "Contact"
       section: contact
+    - title: "Theme Source"
+      url: https://github.com/raviriley/agncy-jekyll-theme/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
